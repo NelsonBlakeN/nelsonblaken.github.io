@@ -1,0 +1,85 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: block;
+    align-items: center;
+}
+
+.banner {
+    width: 100%;
+    position: fixed; /*Keeps the banner at the top of the page as you scroll down*/
+    background-color: rgb(80, 0, 0); /*Aggie Maroon thx and gigem*/
+    color: white;
+    padding: 10px 0 10px 0;
+    top: 0;
+    margin: auto;
+}
+
+.banner-content {
+    width: 1600px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+.header-link, .header-link:hover {
+    color: white;
+}
+
+#header-home {
+    font-size: 36px;
+    font-family: Georgia, serif;
+    line-height: 34px;
+}
+
+#header-projects {
+    font-size: 28px;
+    font-family: Georgia, serif;
+    line-height: 34px;
+}
+
+.flex-spacer {
+    flex-grow: 1;
+}
+
+.header-item {
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.spacer {
+    width: 36px;
+}
+
+.header-icons {
+    /*Image class for icons, so icons and main pic can be different sizes*/
+    width: 64px;
+    height: 64px;
+}
+
+.project-list {
+    font-size: 32px;
+}
+
+#project-thelettergame {
+    /*Top margin is put here so it only appies to the first entry, and doesn't space out every entry in the list.*/
+    margin-top: 200px;
+}
+
+.project-title {
+    margin-left: 300px;
+    width: auto;
+}
+
+.project-link, .project-link:hover {
+    color: black;
+}
+
+.project-description {
+    margin-left: 375px;
+    font-size: 24px;
+    width: 1250px;
+}
